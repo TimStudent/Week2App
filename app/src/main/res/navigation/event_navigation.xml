@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/event_navigation.xml"
+    app:startDestination="@id/MainFragment">
+
+    <fragment
+        android:id="@+id/MainFragment"
+        android:name="com.example.week2assessment.MainFragment"
+        android:label="Events"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_MainFragment_to_FragmentOne"
+            app:destination="@id/FragmentOne" />
+        <action
+            android:id="@+id/action_MainFragment_to_ModifyEventFragment"
+            app:destination="@id/ModifyEventFragment" />
+        <action
+            android:id="@+id/action_MainFragment_to_DetailsFragment"
+            app:destination="@id/DetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/FragmentOne"
+        android:name="com.example.week2assessment.FragmentOne"
+        tools:layout="@layout/fragment_one">
+
+        <action
+            android:id="@+id/action_FragmentOne_to_MainFragment"
+            app:destination="@id/MainFragment" />
+        <action
+            android:id="@+id/action_FragmentOne_to_ModifyEventFragment"
+            app:destination="@id/ModifyEventFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ModifyEventFragment"
+        android:name="com.example.week2assessment.ModifyFragment"
+        tools:layout="@layout/fragment_modify">
+
+        <action
+            android:id="@+id/action_ModifyEventFragment_to_FragmentOne"
+            app:destination="@id/FragmentOne" />
+        <action
+            android:id="@+id/action_ModifyEventFragment_to_MainFragment"
+            app:destination="@id/MainFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/DetailsFragment"
+        android:name="com.example.week2assessment.DetailsFragment"
+        tools:layout="@layout/fragment_details">
+        <action
+            android:id="@+id/action_DetailsFragment_to_ModifyEventFragment"
+            app:destination="@id/ModifyEventFragment" />
+        <action
+            android:id="@+id/action_DetailsFragment_to_MainFragment"
+            app:destination="@id/MainFragment" />
+    </fragment>
+</navigation>
