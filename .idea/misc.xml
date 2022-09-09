@@ -11,9 +11,11 @@
         <entry key="app/src/main/res/layout/activity_notification.xml" value="0.24415378517637734" />
         <entry key="app/src/main/res/layout/cardview.xml" value="0.1" />
         <entry key="app/src/main/res/layout/country_item.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_details.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_action_performer.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_details.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_main.xml" value="0.17252197265624997" />
         <entry key="app/src/main/res/layout/fragment_modify.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_notification.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_one.xml" value="0.20610687022900764" />
         <entry key="app/src/main/res/layout/item_list.xml" value="0.382051282051282" />
         <entry key="app/src/main/res/menu/event_menu.xml" value="0.1" />

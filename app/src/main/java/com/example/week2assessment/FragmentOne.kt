@@ -48,10 +48,6 @@ class FragmentOne : Fragment() {
                 db?.addData(binding.Title.text.toString(), binding.Category.text.toString(),
                     binding.Description.text.toString(), binding.Date.text.toString())
                 db?.close()
-                /**
-                 * TODO: Need to set up a thing where this sends a broadcast to a receiver where
-                 * it uses the information from date.text.toString to set up a broadcast receiver
-                 **/
                 findNavController().navigate(R.id.action_FragmentOne_to_MainFragment)
             }
         }

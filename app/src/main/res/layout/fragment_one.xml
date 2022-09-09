@@ -71,7 +71,7 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@id/Description"
         android:ems="10"
-        android:hint="Date (xx-xx-xxx)"
+        android:hint="Month-Day-Year(XXXX)"
         android:inputType="date"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
